@@ -1,0 +1,15 @@
+<div class="jumbotron">
+  <h2><%= gettext "Welcome to %{name}!", name: "Instituto Nacional de Estadistica" %></h2>
+  <p class="lead">A simulation of the INE web framework.</p>
+</div>
+
+<div class="row marketing">
+  <div class="col-lg-6">
+    <h4>Resources</h4>
+    <ul>
+      <li>
+        <a href="http://ine.es/">INE</a>
+      </li>
+    </ul>
+  </div>
+</div>
