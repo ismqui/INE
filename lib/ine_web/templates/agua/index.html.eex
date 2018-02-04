@@ -13,3 +13,10 @@
     </ul>
   </div>
 </div>
+
+<div class="form-group">
+  <%= form_for @conn, @places, [], fn form -> %>
+    <%= label(form, :place, "Lugar", class: "control-label") %>
+    <%= select(form, :place, @places, class: "form-control") %>
+  <% end %>
+</div>

@@ -13,10 +13,10 @@ defmodule INEWeb.Router do
     plug :accepts, ["json"]
   end
 
-  scope "/", INEWeb do
+  scope "/agua", INEWeb do
     pipe_through :browser # Use the default browser stack
 
-    get "/", PageController, :index
+    get "/", AguaController, :index
   end
 
   # Other scopes may use custom stacks.
